@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name= "fila">
+            <item name="android:layout_width">match_parent</item>
+            <item name="android:layout_height">wrap_content</item>
+        <item name="android:gravity">center</item>
+
+    </style>
+
+    <style name= "columna">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">@color/black</item>
+        <item name="android:textSize">60sp</item>
+        <item name= "android:onClick">TableroClick</item>
+        <item name="android:layout_margin">5dp</item>
+    </style>
+
+    <style name="horizontalLin">
+        <item name="android:background">@color/black</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">5dp</item>
+    </style>
+
+    <style name="VerticalLin">
+        <item name="android:background">@color/black</item>
+        <item name="android:layout_width">5dp</item>
+        <item name="android:layout_height">match_parent</item>
+    </style>
+    <style name= "TextoLinea">
+        <item name= "android:onClick">restTablero</item>
+    </style>
+</resources>
